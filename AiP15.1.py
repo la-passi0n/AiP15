@@ -2,7 +2,7 @@ import tkinter as tk
 import requests
 
 
-class SimpleCatApp:
+class CatApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Факты о кошках")
@@ -36,5 +36,5 @@ class SimpleCatApp:
 
 
 root = tk.Tk()
-app = SimpleCatApp(root)
+app = CatApp(root)
 root.mainloop()
