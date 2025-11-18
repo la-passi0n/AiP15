@@ -2,7 +2,7 @@ import tkinter as tk
 import requests
 
 
-class MiniAPIApp:
+class App:
     def __init__(self, root):
         self.root = root
         self.root.title("API данные")
@@ -27,5 +27,5 @@ class MiniAPIApp:
 
 
 root = tk.Tk()
-app = MiniAPIApp(root)
+app = App(root)
 root.mainloop()
